@@ -1,0 +1,21 @@
+package views;
+
+import controllers.EmpleadoController;
+
+public class EmpleadoView {
+
+	public static void main(String[] args) {
+		
+		String empleado;
+		
+		// Crear Empleado
+		//empleado = new EmpleadoController().createEmpleado("Gonzalez", "Jaime", 25, "Maculino", 1500);
+		
+		
+		//Eliminar Empleado
+		empleado = new EmpleadoController().deleteEmpleado(1);
+		
+		System.out.print(empleado);
+	}
+
+}
